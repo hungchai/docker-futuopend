@@ -1,6 +1,6 @@
 ﻿<futu_opend>
 	<!-- 协议监听地址,不填默认127.0.0.1 -->
-	<ip>0.0.0.0</ip>
+	<ip>127.0.0.1</ip>
 	<!-- API接口协议监听端口 -->
 	<api_port>11111</api_port>
 	<!-- API推送协议格式，0:pb, 1:json -->
@@ -8,9 +8,9 @@
     <!-- API订阅数据推送频率控制，单位毫秒，目前不包括K线和分时，不设置则不限制频率-->
     <!-- <qot_push_frequency>1000</qot_push_frequency> -->
 	<!-- Telnet监听地址,不填默认127.0.0.1 -->
-	<telnet_ip>0.0.0.0</telnet_ip>
+	<!-- <telnet_ip>127.0.0.1</telnet_ip> -->
 	<!-- Telnet监听端口 -->
-	<telnet_port>22222</telnet_port>
+	<!-- <telnet_port>22222</telnet_port> -->
 	<!-- API协议加密私钥文件路径,不设置则不加密 -->
 	<!-- <rsa_private_key>~/rsa</rsa_private_key> -->
 	<!-- 登录帐号 -->
@@ -20,15 +20,15 @@
 	<!-- <login_pwd_md5>6e55f158a827b1a1c4321a245aaaad88</login_pwd_md5> -->
 	<login_pwd>123456</login_pwd>
 	<!-- FutuOpenD语言，en：英文，chs：简体中文 -->
-	<lang>en</lang>
+	<lang>chs</lang>
 	<!-- FutuOpenD日志等级，no,debug,info,warning,error,fatal -->
 	<log_level>info</log_level>
 	<!-- WebSocket监听地址, 不填默认127.0.0.1 -->
-	<websocket_ip>0.0.0.0</websocket_ip>
+	<!-- <websocket_ip>127.0.0.1</websocket_ip> -->
 	<!-- WebSocket监听端口, 不配置则不启用该功能 -->
-	<websocket_port>33333</websocket_port>
+	<!-- <websocket_port>33333</websocket_port> -->
 	<!-- WebSocket鉴权密钥密文, 32位MD5加密16进制 -->
-	<websocket_key_md5>14e1b600b1fd579f47433b88e8d85291</websocket_key_md5>
+	<!-- <websocket_key_md5>14e1b600b1fd579f47433b88e8d85291</websocket_key_md5> -->
 	<!-- WebSocket证书私钥文件路径，不配置则不启用SSL，需要和证书同时配置 -->
 	<!-- <websocket_private_key>~/key</websocket_private_key> -->
 	<!-- WebSocket证书文件路径，不配置则不启用SSL，需要和私钥同时配置 -->

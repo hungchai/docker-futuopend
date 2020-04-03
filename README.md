@@ -1,5 +1,5 @@
 # docker-futuopend
-Aims to build a docker job from FutuOpenD ubuntu version `2.9.750`. 
+Aims to build a docker job from FutuOpenD ubuntu version `2.10.802`. 
 
 
 1. ## Build Docker image
@@ -9,7 +9,7 @@ Aims to build a docker job from FutuOpenD ubuntu version `2.9.750`.
 
     ![FutuOpenD.xml](https://github.com/hungchai/docker-futuopend/blob/master/sample.png)
 
-3. ## update the path into `.env` file
+3. ## update the path on `.env` file
     `path_futuopend_xml=/path/to/FutuOpenD.xml`
 
 3. ## Run Image by `docker-compose`
