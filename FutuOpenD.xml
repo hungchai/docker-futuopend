@@ -33,4 +33,6 @@
 	<!-- <websocket_private_key>~/key</websocket_private_key> -->
 	<!-- WebSocket证书文件路径，不配置则不启用SSL，需要和私钥同时配置 -->
 	<!-- <websocket_cert>~/cer</websocket_cert> -->
+	<!-- 是否接收到价提醒推送，0：不接收，1：接收 -->
+	<price_reminder_push>1</price_reminder_push>
 </futu_opend>
