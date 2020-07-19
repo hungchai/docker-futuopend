@@ -1,5 +1,5 @@
 # docker-futuopend
-Aims to build a docker job from FutuOpenD ubuntu version `2.13.950`. 
+Aims to build a docker job from FutuOpenD ubuntu version `2.14.100`. 
 
 
 1. ## Build Docker image
