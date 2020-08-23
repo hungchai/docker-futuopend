@@ -35,4 +35,7 @@
 	<!-- <websocket_cert>~/cer</websocket_cert> -->
 	<!-- 是否接收到价提醒推送，0：不接收，1：接收 -->
 	<price_reminder_push>1</price_reminder_push>
+	<!-- 被踢后是否自动抢权限，0：否，1：是 -->
+	<!-- 开启该选项后，要想在其他终端上获取行情权限需要在10秒连续踢OpenD两次行情权限（终端登录算一次） -->
+	<auto_hold_quote_right>1</auto_hold_quote_right>
 </futu_opend>
