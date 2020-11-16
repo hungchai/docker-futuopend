@@ -1,5 +1,5 @@
 # docker-futuopend
-Aims to build a docker job from FutuOpenD ubuntu version `2.16.100`. 
+Aims to build a docker job from FutuOpenD ubuntu version `2.18.1200`. 
 
 
 1. ## Build Docker image
@@ -12,10 +12,16 @@ Aims to build a docker job from FutuOpenD ubuntu version `2.16.100`.
 3. ## update the path on `.env` file
     `path_futuopend_xml=/path/to/FutuOpenD.xml`
 
-3. ## Run Image by `docker-compose`
+4. ## Run Image by `docker-compose`
     ```
     docker-compose up -d
     ```
+5. ## Gen RSA private
+```
+openssl genrsa -out futu.pem 1024
+```
+
+6. ## Set the rsa path to .env
 
 
 ## If need to input phone verification code

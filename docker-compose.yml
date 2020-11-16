@@ -10,6 +10,7 @@ services:
     #  - EOPT=-param1=127.0.0.1 -param2=22222
     volumes:
       - ${path_futuopend_xml}:/FutuOpenD/FutuOpenD.xml
+      - ${rsa_key}:/FutuOpenD/key.pem
     stdin_open: true
     tty: true
     deploy:

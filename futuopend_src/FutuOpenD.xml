@@ -15,9 +15,9 @@
 	<!-- <rsa_private_key>~/rsa</rsa_private_key> -->
 	<!-- 登录帐号 -->
 	<login_account>100000</login_account>
-	<!-- 登录密码明文，密码密文存在情况下只使用密文 -->
 	<!-- 登录密码32位MD5加密16进制 -->
 	<!-- <login_pwd_md5>6e55f158a827b1a1c4321a245aaaad88</login_pwd_md5> -->
+	<!-- 登录密码明文，密码密文存在情况下只使用密文 -->
 	<login_pwd>123456</login_pwd>
 	<!-- FutuOpenD语言，en：英文，chs：简体中文 -->
 	<lang>chs</lang>
@@ -38,4 +38,7 @@
 	<!-- 被踢后是否自动抢权限，0：否，1：是 -->
 	<!-- 开启该选项后，要想在其他终端上获取行情权限需要在10秒连续踢OpenD两次行情权限（终端登录算一次） -->
 	<auto_hold_quote_right>1</auto_hold_quote_right>
+    <!-- 指定期货交易API时区，期货账户调用交易API时，涉及的时间将按照此规则。期货交易必须配置此字段 -->
+    <!-- UTC：0时区，UTC+1：东一区，UTC+2：东二区，……，UTC+11，东十一区，UTC+12：东西十二区，UTC-11：西十一区，……，UTC-1：西一区 -->
+    <future_trade_api_time_zone>UTC+8</future_trade_api_time_zone>
 </futu_opend>
