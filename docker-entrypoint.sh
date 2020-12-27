@@ -8,5 +8,5 @@ OPTS="-cfg_file=$cfg_file "
 
 echo "OPTS: $OPTS $EXOPT"
 
-$FUTU_HOME/FutuOpenD $OPTS $EXOPTig
+$FUTU_HOME/FutuOpenD $OPTS $EXOPT
 

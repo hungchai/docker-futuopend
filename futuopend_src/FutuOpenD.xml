@@ -5,8 +5,8 @@
 	<api_port>11111</api_port>
 	<!-- API推送协议格式，0:pb, 1:json -->
 	<push_proto_type>0</push_proto_type>
-    <!-- API订阅数据推送频率控制，单位毫秒，目前不包括K线和分时，不设置则不限制频率-->
-    <!-- <qot_push_frequency>1000</qot_push_frequency> -->
+	<!-- API订阅数据推送频率控制，单位毫秒，目前不包括K线和分时，不设置则不限制频率-->
+	<!-- <qot_push_frequency>1000</qot_push_frequency> -->
 	<!-- Telnet监听地址,不填默认127.0.0.1 -->
 	<!-- <telnet_ip>127.0.0.1</telnet_ip> -->
 	<!-- Telnet监听端口 -->
@@ -38,7 +38,7 @@
 	<!-- 被踢后是否自动抢权限，0：否，1：是 -->
 	<!-- 开启该选项后，要想在其他终端上获取行情权限需要在10秒连续踢OpenD两次行情权限（终端登录算一次） -->
 	<auto_hold_quote_right>1</auto_hold_quote_right>
-    <!-- 指定期货交易API时区，期货账户调用交易API时，涉及的时间将按照此规则。期货交易必须配置此字段 -->
-    <!-- UTC：0时区，UTC+1：东一区，UTC+2：东二区，……，UTC+11，东十一区，UTC+12：东西十二区，UTC-11：西十一区，……，UTC-1：西一区 -->
-    <future_trade_api_time_zone>UTC+8</future_trade_api_time_zone>
+	<!-- 指定期货交易API时区，期货账户调用交易API时，涉及的时间将按照此规则。期货交易必须配置此字段 -->
+	<!-- UTC：0时区，UTC+1：东一区，UTC+2：东二区，……，UTC+11，东十一区，UTC+12：东西十二区，UTC-11：西十一区，……，UTC-1：西一区 -->
+	<future_trade_api_time_zone>UTC+8</future_trade_api_time_zone>
 </futu_opend>
